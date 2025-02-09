@@ -1,0 +1,787 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    --var-bg-color:#f1cfdf;
+    --var-bg-secondary:#cb5a90;
+    --var-bg-card:#FCFCFC;
+    --var-text-pink:#cb5a90;
+    --var-text-color-dark:#000000;
+}
+
+body
+{
+    font-family: "Montserrat", sans-serif;
+    background-color: var(--var-bg-color);
+    color: var(--var-text-color-dark);
+    padding-right: 30%;
+    padding-bottom: 2%;
+}
+
+header
+{
+    height: 5rem;
+    margin: 3rem 0rem;
+    background-color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+header nav
+{
+    padding: 1rem 2rem;
+}
+
+header nav ul
+{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+main
+{
+    background-color: white;
+}
+header nav ul li a
+{
+    text-decoration: none;
+    color: var(--var-text-color-dark);
+    font-size: 1.5vh;
+}
+
+header nav ul li a:hover
+{
+    color: var(--var-text-pink);
+    transition: 0.5s;
+}
+
+.pink_text
+{
+    color: var(--var-text-pink);
+}
+#apercu_bigoodee .apercu
+{
+    display: flex;
+    padding: 0rem 2rem;
+    place-items: center;
+    background: var(--var-bg-color);
+}
+#apercu_bigoodee .apercu img
+{
+    width: 30%;
+    height: 30%;
+}
+#apercu_bigoodee .apercu .apercu_im
+{
+    padding: 0rem 1rem;
+}
+#slogan
+{
+    font-weight: 500;
+    font-size: 3.6rem;
+    text-align: justify;
+}
+
+#infos
+{
+    margin: 2rem 0rem;
+    font-size: 1.2rem;
+}
+
+#notation
+{
+    display: flex;
+    background-color: var(--var-bg-secondary);
+    padding: 5rem;
+    margin-top: 0rem;
+}
+#notation .text_note
+{
+    color: white;
+    font-weight: 200;
+    font-size: 14px;
+}
+#notation .note
+{
+    margin: 0rem 1rem;
+}
+#notation .star
+{
+    height: 1vh;
+    margin-bottom: 1rem;
+}
+
+#newletter
+{
+    background-color: white;
+    padding: 2rem 0rem;
+    align-items: center;
+}
+
+#notre_newsletter
+{
+    text-align: center;
+    font-weight: 500;
+    font-size: 3vh;
+    margin: 0rem 18rem;
+    margin-bottom: 3rem;
+}
+
+#card_view
+{
+    display: flex;
+    padding: 0rem 2rem;
+}
+
+#card_view .card_infos
+{
+    height: 100%;
+    margin: 0rem 3rem;
+    padding: 1rem;
+}
+#card_view .card_infos .card img
+{
+    width: 100%;
+    height: auto;
+}
+#card_view .card_infos .card
+{
+    background-color: var(--var-bg-card);
+    padding: 2rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+#card_view .card_infos .titre
+{
+    font-weight: 500;
+    margin-top: 2rem;
+    text-align: center;
+}
+#card_view .card_infos .legende
+{
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+}
+#newletter form
+{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0rem;
+}
+#newletter form input
+{
+    padding: 0.5vh 10vh;
+    border-radius: 5px 0px 0px 5px;
+}
+#newletter form button
+{
+    padding: 0.5vh 5vh;
+    border: 1px solid var(--var-bg-secondary);
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--var-bg-secondary);
+}
+
+#inscription_new
+{
+    background-color: white;
+    display: flex;
+}
+
+#inscription_new .carte
+{
+    display: flex;
+    place-items: center;
+    background-color: var(--var-bg-color);
+    margin: 2rem;
+    border-radius: 20px;
+    padding: 2rem;
+}
+
+#inscription_new img
+{
+    width: 100%;
+}
+
+#inscription_new .titre
+{
+    font-size: 2rem;
+    font-weight: 500;
+}
+#inscription_new .text_bold
+{
+    font-weight: 500;
+    margin: 2rem 0rem;
+}
+#inscription_new .why_register
+{
+    margin: 0rem 3rem;
+}
+
+#routine
+{
+    background-color: var(--var-bg-secondary);
+    border-radius: 20px;
+    padding: 3rem 5rem;
+    margin: 2rem;
+    place-items: center;
+}
+#routine .white_text
+{
+    color: white;
+}
+#routine form select
+{
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+#receive_routine input
+{
+    border: 1px solid var(--var-bg-secondary);
+    padding: 0.5rem 3rem;
+    border-radius: 2px;
+} 
+#receive_routine
+{
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#receive_routine button
+{
+    border: 1px solid white;
+    background-color: var(--var-bg-secondary);
+    padding: 0.5rem 3rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+} 
+#cartefaq
+{
+    background-color: var(--var-bg-card);
+    font-size: 1.2rem;
+    border-radius: 20px;
+    margin: 2rem;
+}
+#cartefaq .question
+{
+    display: flex;
+    padding: 2rem 0rem;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+    margin: 0rem 3rem 0rem 3rem;
+}
+#cartefaq .last
+{
+    border: none;
+}
+#guide
+{
+   padding: 1rem; 
+}
+#guide form
+{
+    background-color: var(--var-bg-color);
+    margin: 2rem;
+    padding: 5rem;
+    border-radius: 20px;
+}
+#guide form label input
+{
+    margin: 0.5rem 2rem;
+}
+input[type="radio"]
+{
+    accent-color: var(--var-bg-secondary);
+}
+#receive_guide
+{
+    display: flex;
+    margin: 2rem 2rem;
+}
+#receive_guide input 
+{
+    border: none;
+    padding: 0.5rem 15rem;
+    border-radius: 2px;
+}
+#receive_guide button 
+{
+    border: none;
+    background-color: var(--var-bg-secondary);
+    padding: 0.5rem 5rem;
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+footer
+{
+    background-color: var(--var-bg-secondary);
+    padding: 2rem;
+    color: white;
+}
+#more
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#gauche 
+{
+    width: 25%;
+}
+#gauche p
+{
+    font-size: 13px;
+}
+
+#link ul li
+{
+    list-style: none;
+}
+#link ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+
+}
+#link ul li a:hover
+{
+    font-weight: 700;
+    transition: 0.6s;
+}
+#join_community form
+{
+    display: flex;
+}
+#join_community input 
+{
+    border: none;
+    padding: 0.2rem 2rem;
+    border-radius: 2px 0px 0px 2px;
+}
+#join_community button 
+{
+    border: none;
+    background-color: var(--var-bg-color);
+    padding: 0.2rem 2rem;
+    color: black;
+    cursor: pointer;
+    border-radius: 0px 2px 2px 0px;
+}
+#centre
+{
+    padding: 3rem 0rem;
+}
+#droite i{
+    margin: 0.3rem;
+    font-size: 3rem;
+}
+
+@media (max-width:550px) {
+    body
+    {
+        padding-right: 0%;
+        padding-bottom: 2%;
+    }
+    header
+    {
+        margin: 0rem;
+        height: 5rem;
+    }
+    header nav ul
+    {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+    #apercu_bigoodee .apercu .apercu_im
+    {
+        padding: 0rem 1rem;
+    }
+    #apercu_bigoodee .apercu
+    {
+        display: flex;
+        padding: 1rem 2rem;
+        place-items: center;
+        background: var(--var-bg-color);
+    }
+    #slogan
+    {
+        font-weight: 500;
+        font-size: 100%;
+        text-align: justify;
+    }
+    #infos
+    {
+        font-size: 60%;
+    }
+    #notation
+    {
+        padding: 2rem;
+        margin-top: 0rem;
+    }
+    #notation .text_note
+    {
+        color: white;
+        font-weight: 200;
+        font-size: 1vh;
+    }
+    #notre_newsletter
+    {
+        font-size: 3vh;
+        margin: 0rem 1rem;
+        margin-bottom: 3rem;
+    }
+    #card_view
+    {
+        display: flex;
+        padding: 0rem 0rem;
+    }
+    #card_view .card_infos
+    {
+        margin: 0rem 0rem;
+    }
+    #inscription_new .carte
+    {
+        display: block;
+        place-items: center;
+        background-color: var(--var-bg-color);
+        margin: 2rem;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+    #inscription_new .titre
+    {
+        font-size: 1rem;
+    }
+    #inscription_new .text_bold
+    {
+        font-weight: 500;
+        margin: 1rem 0rem;
+    }
+    #inscription_new .why_register
+    {
+        font-size: 0.7rem;
+    }
+    #routine form select
+    {
+        padding: 0.5rem 5rem;
+        border: none;
+        border-radius: 5px;
+        color: grey;
+    }
+    #routine p
+    {
+        text-align: center;
+    }
+    #receive_routine input
+    {
+        border: 1px solid var(--var-bg-secondary);
+        padding: 0.5rem 3rem;
+        border-radius: 2px;
+    } 
+    #receive_routine
+    {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    #select_routine
+    {
+        width: 100%;
+    }
+    #receive_routine button
+    {
+        border: 1px solid white;
+        background-color: var(--var-bg-secondary);
+        padding: 0.1vh 0.1vh;
+        color: white;
+        font-size: 0.6rem;
+        cursor: pointer;
+        border-radius: 2px;
+    } 
+    #guide
+    {
+       padding: 0rem;
+       align-items: center;
+       text-align: center; 
+    }
+    #guide form
+    {
+        background-color: var(--var-bg-color);
+        margin: 2rem;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+    #receive_guide
+    {
+        display: block;
+        margin: 2rem 2rem;
+    }
+    #receive_guide input 
+    {
+        border: none;
+        padding: 0.5rem 4rem;
+        border-radius: 2px;
+    }
+    #receive_guide button 
+    {
+        border: none;
+        background-color: var(--var-bg-secondary);
+        padding: 0.5rem 4.4rem;
+        color: white;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    footer #more {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #gauche {
+        width: 100%;
+    }
+
+    #join_community form {
+        flex-direction: column;
+    }
+
+    #join_community input,
+    #join_community button {
+        width: 100%;
+        border-radius: 5px;
+    }
+    #link ul li a
+    {
+        text-decoration: underline;
+    }
+    #card_view
+    {
+        display: block;
+        padding: 0rem 2rem;
+    }
+    #newletter form
+    {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (min-width:551px) and (max-width:1090px) {
+    body
+    {
+        padding-right: 0%;
+        padding-bottom: 2%;
+    }
+    header
+    {
+        margin: 0rem;
+        height: 5rem;
+    }
+    header nav ul
+    {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+    #apercu_bigoodee .apercu .apercu_im
+    {
+        padding: 0rem 1rem;
+    }
+    #apercu_bigoodee .apercu
+    {
+        display: flex;
+        padding: 1rem 2rem;
+        place-items: center;
+        background: var(--var-bg-color);
+    }
+    #slogan
+    {
+        font-weight: 500;
+        font-size: 100%;
+        text-align: justify;
+    }
+    #infos
+    {
+        font-size: 60%;
+    }
+    #notation
+    {
+        padding: 2rem;
+        margin-top: 0rem;
+    }
+    #notation .text_note
+    {
+        color: white;
+        font-weight: 200;
+        font-size: 1vh;
+    }
+    #notre_newsletter
+    {
+        font-size: 3vh;
+        margin: 0rem 1rem;
+        margin-bottom: 3rem;
+    }
+    #card_view
+    {
+        display: flex;
+        padding: 0rem 0rem;
+    }
+    #card_view .card_infos
+    {
+        margin: 0rem 0rem;
+    }
+    #inscription_new .carte
+    {
+        display: block;
+        place-items: center;
+        background-color: var(--var-bg-color);
+        margin: 2rem;
+        border-radius: 20px;
+        padding: 0.5rem;
+    }
+    #inscription_new .titre
+    {
+        font-size: 1rem;
+    }
+    #inscription_new .text_bold
+    {
+        font-weight: 500;
+        margin: 1rem 0rem;
+    }
+    #inscription_new .why_register
+    {
+        font-size: 0.7rem;
+    }
+    #routine form select
+    {
+        padding: 0.5rem 5rem;
+        border: none;
+        border-radius: 5px;
+        color: grey;
+    }
+    #routine p
+    {
+        text-align: center;
+    }
+    #receive_routine input
+    {
+        border: 1px solid var(--var-bg-secondary);
+        padding: 0.5rem 3rem;
+        border-radius: 2px;
+    } 
+    #receive_routine
+    {
+        margin: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+    #select_routine
+    {
+        width: 100%;
+    }
+    #receive_routine button
+    {
+        border: 1px solid white;
+        background-color: var(--var-bg-secondary);
+        padding: 0.1vh 0.1vh;
+        color: white;
+        font-size: 0.6rem;
+        cursor: pointer;
+        border-radius: 2px;
+    } 
+    #guide
+    {
+       padding: 0rem;
+       align-items: center;
+       text-align: center; 
+    }
+    #guide form
+    {
+        background-color: var(--var-bg-color);
+        margin: 2rem;
+        padding: 1rem;
+        border-radius: 20px;
+    }
+    #receive_guide
+    {
+        display: block;
+        margin: 2rem 2rem;
+    }
+    #receive_guide input 
+    {
+        border: none;
+        padding: 0.5rem 4rem;
+        border-radius: 2px;
+    }
+    #receive_guide button 
+    {
+        border: none;
+        background-color: var(--var-bg-secondary);
+        padding: 0.5rem 4.4rem;
+        color: white;
+        cursor: pointer;
+        border-radius: 2px;
+    }
+    footer #more {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #gauche {
+        width: 100%;
+    }
+
+    #join_community form {
+        flex-direction: column;
+    }
+
+    #join_community input,
+    #join_community button {
+        width: 100%;
+        border-radius: 5px;
+    }
+    #link ul li a
+    {
+        text-decoration: underline;
+    }
+    #card_view
+    {
+        display: block;
+        padding: 0rem 2rem;
+    }
+    #newletter form
+    {
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media (min-width:1091px)
+{
+    body
+    {
+        padding-right: 1%;
+    }
+}
